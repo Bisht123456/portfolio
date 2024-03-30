@@ -4,7 +4,7 @@ import MySkills from "./mySkills";
 
 const MainAboutme = () => {
 
-  const PDF_FIlE_URL = "https://portfolio-mu-snowy-21.vercel.app/RahulCV.pdf";
+  const PDF_FIlE_URL = "https://portfolio-mu-snowy-21.vercel.app/RahulCV1.pdf";
   const handleDownlodCv = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
