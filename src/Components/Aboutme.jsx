@@ -78,7 +78,7 @@ const Aboutme = () => {
           <Col lg={6}>
             <div className="d-flex justify-content-center align-items-center">
               <div className="photodiv">
-                {/* <img src="/images/images.jpeg" alt="image" /> */}
+                <img src="/images/1711780475457.JPEG" alt="image" />
               </div>
             </div>
           </Col>
