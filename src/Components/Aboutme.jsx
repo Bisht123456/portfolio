@@ -44,7 +44,7 @@ const Aboutme = () => {
             </div>
             <div data-aos="zoom-out-left" data-aos-duration="1500">
               <p>
-                I'm a web Designer with extensive experience for over 3 years.
+                I'm a web Designer with extensive experience for over 7 years.
                 expertise is to create and website design, Fronted design, and
                 many more...
               </p>
