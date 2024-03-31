@@ -276,3 +276,10 @@ svg {
     display: none;
   }
 }
+
+@media (max-width: 447px){
+  .photodiv img{
+    height: 281px;
+    width: 281px;
+  }
+}

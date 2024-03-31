@@ -13,7 +13,7 @@ const Projects = () => {
           <Col lg={4}>
             <div data-aos="fade-up" data-aos-duration="1500">
               <a href="https://e-com-sand.vercel.app/">
-                <Card className="background-image">
+                <Card className="background-image mb-3">
                   <Card.Body className="colobgalign">
                     <Card.Text>Demo</Card.Text>
                   </Card.Body>
@@ -24,7 +24,7 @@ const Projects = () => {
           <Col lg={4}>
             <div data-aos="flip-down" data-aos-duration="1500">
               <a href="https://handmadewooden.vercel.app/">
-                <Card className="background-imagee">
+                <Card className="background-imagee mb-3">
                   <Card.Body className="colobgalign">
                     <Card.Text>Demo</Card.Text>
                   </Card.Body>
@@ -35,7 +35,7 @@ const Projects = () => {
           <Col lg={4}>
             <div data-aos="fade-down" data-aos-duration="1500">
               <a href="https://interior-design-demo.vercel.app/">
-                <Card className="background-imageee">
+                <Card className="background-imageee mb-3">
                   <Card.Body className="colobgalign">
                     <Card.Text>Demo</Card.Text>
                   </Card.Body>
