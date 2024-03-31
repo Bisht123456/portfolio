@@ -3,6 +3,17 @@ import { Col, Row } from "react-bootstrap";
 import MySkills from "./mySkills";
 
 const MainAboutme = () => {
+
+  const PDF_FIlE_URL = "https://portfolio-mu-snowy-21.vercel.app/RahulCV1.pdf";
+  const handleDownlodCv = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute('download', fileName)
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  }
   return (
     <>
       <div style={{ backgroundColor: "#091b2a", padding: "50px 50px 100px 50px" }}>
@@ -33,7 +44,7 @@ const MainAboutme = () => {
               technologies and design trends to deliver cutting-edge solutions.
             </p>
 
-            <button className="aboutmebutton">MORE ABOUT ME</button>
+            <button className="aboutmebutton" onClick={() => handleDownlodCv(PDF_FIlE_URL)}>Download CV</button>
           </Col>
         </Row>
       </div>

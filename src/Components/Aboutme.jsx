@@ -44,7 +44,7 @@ const Aboutme = () => {
             </div>
             <div data-aos="zoom-out-left" data-aos-duration="1500">
               <p>
-                I'm a web Designer with extensive experience for over 3 years.
+                I'm a web Designer with extensive experience for over 7 years.
                 expertise is to create and website design, Fronted design, and
                 many more...
               </p>
@@ -78,7 +78,7 @@ const Aboutme = () => {
           <Col lg={6}>
             <div className="d-flex justify-content-center align-items-center">
               <div className="photodiv">
-                {/* <img src="/images/images.jpeg" alt="image" /> */}
+                <img src="/images/1711780475457.JPEG" alt="image" />
               </div>
             </div>
           </Col>

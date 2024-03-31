@@ -26,9 +26,11 @@
 
 .photodiv img {
   border-radius: 100%;
-  width: 100%;
+  width: 400px;
+  height: 400px;
   border: 1px solid #a7ffff;
   padding: 10px;
+  object-fit: cover;
 }
 
 .photodivv img {
