@@ -258,3 +258,19 @@ svg {
 .colobgalign {
   background-image: linear-gradient(0deg, aqua, transparent);
 }
+
+.threeline {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .threeline {
+    display: block;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+}
